@@ -106,6 +106,122 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
+.admin-table-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.admin-table-container h2 {
+  margin-bottom: 15px;
+}
+
+.admin-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table-container th,
+.admin-table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-table-container th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.admin-table-container button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.admin-table-container button:hover {
+  background-color: #c0392b;
+}
+
+.user-info-card {
+  background-color: #fce3f2;
+  border: 2px solid #b95fa8;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(105, 29, 90, 0.2);
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+.admin-tariffs {
+  padding: 20px;
+}
+
+.tariff-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.tariff-table th,
+.tariff-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tariff-table th {
+  background-color: #f5f5f5;
+}
+
+.new-tariff-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.new-tariff-form input {
+  padding: 8px;
+  font-size: 14px;
+  min-width: 200px;
+}
+
+.new-tariff-form button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #7b1b7c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.user-info-card h3 {
+  margin-top: 0;
+  color: #751575;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.user-info-item {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #3A2234;
+}
+
+.user-info-item strong {
+  display: inline-block;
+  width: 100px;
+  color: #a338a3;
+}
+
 
 .expenses-block {
   background-color: #d494c7;
