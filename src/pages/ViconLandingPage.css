@@ -1,0 +1,190 @@
+body, .vicon-wrapper {
+  overflow-x: hidden;
+}
+.vicon-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffe4f1, #fddde6);
+  color: #333;
+  font-family: sans-serif;
+}
+
+.vicon-nav .vicon-button {
+  background-color: #E7B2E1 ;
+  border: none;
+  color: #3A2234;
+  width: 140px;
+  height: 50px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.vicon-nav .vicon-button:hover {
+  background: #ce63c2bf;
+}
+
+
+.vicon-hero {
+  background: url('./icons/hero.png'),linear-gradient(90deg, rgba(182, 83, 170, 0.8) 0%, rgba(255, 215, 250, 0.8) 100%);
+  background-size:contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 60px 32px;
+    justify-content: flex-start; /* выравниваем текст влево */
+  width: 100%;
+  box-sizing: border-box;
+  max-height: 256px;
+  max-width: 1920px;
+  position: relative;
+}
+
+
+.vicon-hero-title {
+  font-size: 45px;
+  font-weight: bold;
+  max-width: 600px;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  padding-left: 16px; /* ← если нужно еще чуть-чуть отступа */
+}
+
+
+
+.vicon-hero-image {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-right: 0;
+  align-self: flex-end;
+}
+
+.vicon-features {
+  padding: 48px 32px;
+}
+
+.vicon-section-title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.vicon-feature-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .vicon-feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.vicon-feature {
+position: relative;
+  background: linear-gradient(10deg, #E7AEE0 9.97%, #F3E5F2 90.04%);
+  padding: 24px;
+  max-width: 455px;
+  max-height: 443px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vicon-feature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.vicon-icon {
+  justify-self: right;
+  height: 340px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.vicon-feature-title {
+    z-index: 1;
+    position:absolute;
+margin-left: 50px;
+  font-size: 64px;
+  max-width: 100px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+.vicon-feature-grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+
+  .vicon-feature {
+    padding: 16px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .vicon-icon {
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .vicon-feature-title {
+    font-size: 20px;
+    position: static;
+    margin: 12px 0;
+  }
+ .vicon-hero {
+    background-size:contain;
+    padding: 32px 16px;
+    text-align: left;
+    background-position: center;
+  }
+
+  .vicon-hero-title {
+    font-size: 23px;
+    max-width: 60%;
+    padding-left: 0;
+  }
+
+
+
+  /* Features */
+  .vicon-section-title {
+    font-size: 32px;
+  }
+
+  .vicon-feature-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .vicon-feature {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .vicon-feature-title {
+    font-size: 30px;
+    position: static;
+    margin: 0 0 12px 0;
+    text-align: center;
+  }
+
+  .vicon-icon {
+    height: 150px;
+    margin: 0 auto;
+    align-self: right;
+    display: block;
+  }
+}

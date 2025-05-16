@@ -1,0 +1,243 @@
+.tariffs-page {
+  padding: 40px;
+  background-color: linear-gradient(to bottom, #ffe4f1, #fddde6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Заголовок */
+.tariffs-page h1 {
+  font-size: 64px;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #2b2b2b;
+}
+
+/* Кнопки-фильтры */
+.tariff-filters {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.tariff-filter-button {
+  padding: 10px 20px;
+  background-color: #e5b2e5;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  transition: background 0.2s ease;
+}
+
+.tariff-filter-button:hover {
+  background-color: #d390d3;
+}
+
+/* Контейнер с карточками */
+.tariffs-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  gap: 32px;
+}
+
+/* Карточка тарифа */
+.tariff-card {
+  background: linear-gradient(to bottom right, #f5d3f5, #e0a3e0);
+  border-radius: 16px;
+  padding: 30px 24px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: 24px;
+}
+
+.tariff-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.tariff-card h2 {
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+.tariff-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 16px;
+  color: #3c3c3c;
+}
+
+.tariff-card ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.feature-img {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+
+.tariff-card p {
+  font-size: 22px;
+  color: #7b005b;
+  margin-bottom: 20px;
+}
+
+.tariff-card button {
+  height: 47px;
+  width: 139px;
+  padding: 10px 16px;
+  margin-right: 12px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+.order{
+    background-color: #740867;
+    color: rgb(255, 255, 255);
+}
+.info{
+  background-color: #ffffff;
+  color: rgb(25, 22, 25);
+}
+
+.tariff-card .order:hover {
+  background-color: #a338a3;
+}
+.tariff-card .info:hover {
+  background-color: #d390d3;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .tariffs-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 на планшетах */
+  }
+}
+
+@media (max-width: 768px) {
+  .tariffs-page {
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Заголовок (меньше, чем в десктопе) */
+.tariffs-page h1 {
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+/* Фильтры (горизонтальный скролл) */
+.tariff-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tariff-filter-button {
+  padding: 8px 16px;
+  background-color: #e5b2e5;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tariff-filter-button:hover {
+  background-color: #d390d3;
+}
+
+/* Карточки (2 в ряд) */
+.tariffs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.tariff-card {
+    position: relative;
+  background: linear-gradient(to bottom right, #f5d3f5, #e0a3e0);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tariff-card:hover {
+  transform: translateY(-2px);
+}
+
+.tariff-card h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #2b2b2b;
+}
+
+.tariff-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.tariff-card ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #3c3c3c;
+}
+
+.feature-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.tariff-card p {
+  font-size: 18px;
+  color: #7b005b;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.tariff-card button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 8px;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  min-width: 20px;
+  margin-right: 6px;
+}
+
+.order {
+  background-color: #740867;
+  color: white;
+}
+
+.info {
+  background-color: #ffffff;
+  color: #191619;
+}
+}

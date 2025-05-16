@@ -1,0 +1,375 @@
+/* Frame 1 */
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFEBFA;
+
+
+/* Почему мы? */
+
+position: absolute;
+width: 402px;
+height: 77px;
+left: 765px;
+top: 554px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #3A2234;
+
+
+
+/* Group 10 */
+
+position: absolute;
+width: 587.52px;
+height: 454px;
+left: 1319px;
+top: 659px;
+
+/* Rectangle 42 */
+
+position: absolute;
+width: 139px;
+height: 47px;
+left: 75px;
+top: 800px;
+
+background: #740867;
+border-radius: 25px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 563px;
+height: 454px;
+left: 1319px;
+top: 659px;
+
+background: linear-gradient(17.66deg, #E7AEE0 12.09%, rgba(243, 229, 242, 0.44) 87.95%);
+border-radius: 21px;
+
+
+/* image 2 */
+
+position: absolute;
+width: 348.52px;
+height: 348.52px;
+left: 1558px;
+top: 760px;
+
+background: url(image.png);
+
+
+/* Широкая география услуг */
+
+position: absolute;
+width: 505px;
+height: 46px;
+left: 1348px;
+top: 751px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #3A2234;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 553px;
+height: 483px;
+left: 50px;
+top: 662px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 529.74px;
+height: 447px;
+left: 50px;
+top: 662px;
+
+background: linear-gradient(13.98deg, #E7AEE0 9.97%, #F3E5F2 90.04%);
+border-radius: 21px;
+
+
+/* Быстрая связь */
+
+position: absolute;
+width: 445.96px;
+height: 46px;
+left: 91.89px;
+top: 756px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #3A2234;
+
+
+
+/* image 3 */
+
+position: absolute;
+width: 365px;
+height: 365px;
+left: 603px;
+top: 780px;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 9 */
+
+position: absolute;
+width: 1920px;
+height: 356px;
+left: 0px;
+top: 170px;
+
+
+
+/* image */
+
+position: absolute;
+width: 1920px;
+height: 356px;
+left: 0px;
+top: 170px;
+
+background: url(image.png), linear-gradient(90deg, #B653AA 0%, #FFD7FA 100%);
+
+
+/* Секретный бонус при заказе карты SIM */
+
+position: absolute;
+width: 568px;
+height: 46px;
+left: 75px;
+top: 228px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFEDFB;
+
+
+
+/* Group 3 */
+
+position: absolute;
+width: 1807px;
+height: 124px;
+left: 75px;
+top: 27px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 176px;
+height: 59px;
+left: 1065px;
+top: 56px;
+
+background: #E7B2E1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 176px;
+height: 59px;
+left: 1251px;
+top: 56px;
+
+background: #E7B2E1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 197px;
+height: 59px;
+left: 1437px;
+top: 56px;
+
+background: #E7B2E1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
+
+
+/* Выбрать тариф */
+
+position: absolute;
+width: 159px;
+height: 24px;
+left: 1078px;
+top: 74px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #3A2234;
+
+
+
+/* Заказать SIM */
+
+position: absolute;
+width: 136px;
+height: 24px;
+left: 1274px;
+top: 74px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #3A2234;
+
+
+
+/* Интернет-магазин */
+
+position: absolute;
+width: 190px;
+height: 24px;
+left: 1439px;
+top: 74px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #3A2234;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 223px;
+height: 90px;
+left: 1659px;
+top: 37px;
+
+background: #E7B2E1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 29px;
+
+
+/* Личный кабинет */
+
+position: absolute;
+width: 168px;
+height: 24px;
+left: 1690px;
+top: 70px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #3A2234;
+
+
+
+/* image 1 */
+
+position: absolute;
+width: 187px;
+height: 124px;
+left: 75px;
+top: 27px;
+
+background: url(image.png);
+border-radius: 53px;
+
+
+/* Group 2 */
+
+position: absolute;
+width: 641.46px;
+height: 510.46px;
+left: 684px;
+top: 659px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 563px;
+height: 454px;
+left: 684px;
+top: 659px;
+
+background: linear-gradient(20.34deg, #E7AEE0 17.48%, #F3E5F2 86.5%);
+border-radius: 21px;
+
+
+/* image 4 */
+
+position: absolute;
+width: 362px;
+height: 362px;
+left: 1198.94px;
+top: 1169.46px;
+
+background: url(image.png);
+transform: rotate(-159.54deg);
+
+
+/* Низкие цены */
+
+position: absolute;
+width: 473.97px;
+height: 44.82px;
+left: 752.08px;
+top: 750.58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #3A2234;
+
